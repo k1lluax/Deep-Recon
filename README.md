@@ -7,54 +7,33 @@ Version: 1.0.0
 
 License: MIT
 
-Table of Contents
-
-Introduction
-
-Features
-
-Installation
-
-Usage
-
-Script Workflow
-
-Requirements
-
-Configuration
-
-Contributing
-
-License
-
 Introduction
 
 Deep Recon is an automated reconnaissance and enumeration script designed for bug bounty programs and pentesting engagements. It leverages a variety of tools to gather comprehensive information about a target domain, including subdomains, endpoints, parameters, and more.
 
 Features
+
 Subdomain Enumeration: Uses sublist3r and subfinder to find subdomains.
+
 Endpoint Collection: Gathers endpoints using katana, theHarvester, and Google Dorks.
+
 Alive URL Checking: Verifies live URLs with httprobe.
+
 Fuzzing and Scanning: Performs fuzzing on subdomains and scans IPs using nmap.
+
 Organized Output: Stores results in a directory structure for easy navigation.
+
 Installation
 Clone the repository to your local machine:
-
-bash
-Copy code
 git clone https://github.com/k1lluax/Deep-recon
 cd Deep-recon
 Make the script executable:
-
-bash
-Copy code
 chmod +x Deep-recon.sh
 Usage
 Run the script with:
-
-bash
 ./Deep-recon.sh 
 Enter the target domain: example.com
+
 Script Workflow
 Information Gathering:
 The script first gathers information using theHarvester.
@@ -76,11 +55,10 @@ theHarvester
 katana
 httprobe
 nmap
+waybackurls
+paramspider
 Configuration
 Edit the script to modify default settings, such as the wordlists or directories used for storing results. Example:
-
-bash
-Copy code
 WORDLIST="/usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-110000.txt"
 OUTPUT_DIR="results"
 Contributing
