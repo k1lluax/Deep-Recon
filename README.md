@@ -2,19 +2,33 @@ Deep Recon - Automated Reconnaissance Script
 ![github deep-recon](https://github.com/user-attachments/assets/9b6fab63-74ea-4cc8-a45b-abf803d45823)
 
 Author: @k1lluax
+
 Version: 1.0.0
+
 License: MIT
+
 Table of Contents
+
 Introduction
+
 Features
+
 Installation
+
 Usage
+
 Script Workflow
+
 Requirements
+
 Configuration
+
 Contributing
+
 License
+
 Introduction
+
 Deep Recon is an automated reconnaissance and enumeration script designed for bug bounty programs and pentesting engagements. It leverages a variety of tools to gather comprehensive information about a target domain, including subdomains, endpoints, parameters, and more.
 
 Features
