@@ -5,8 +5,6 @@ Author: @k1lluax
 
 Version: 1.0.0
 
-License: MIT
-
 Introduction
 
 Deep Recon is an automated reconnaissance and enumeration script designed for bug bounty programs and pentesting engagements. It leverages a variety of tools to gather comprehensive information about a target domain, including subdomains, endpoints, parameters, and more.
