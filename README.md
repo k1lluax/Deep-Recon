@@ -24,46 +24,69 @@ Fuzzing and Scanning: Performs fuzzing on subdomains and scans IPs using nmap.
 Organized Output: Stores results in a directory structure for easy navigation.
 
 Installation
+
 Clone the repository to your local machine:
+
 git clone https://github.com/k1lluax/Deep-recon
+
 cd Deep-recon
+
 Make the script executable:
+
 chmod +x Deep-recon.sh
 Usage
+
 Run the script with:
+
 ./Deep-recon.sh 
+
 Enter the target domain: example.com
 
 Script Workflow
+
 Information Gathering:
 The script first gathers information using theHarvester.
+
 Subdomain Enumeration:
 Subdomains are enumerated using sublist3r and subfinder.
+
 Endpoint Collection:
 Endpoints and parameters are collected using katana and Google Dorks.
+
 Alive URL Checking:
 The script checks which URLs are alive with httprobe.
+
 Fuzzing and Scanning:
 Subdomains are fuzzed, and IPs are scanned using nmap.
+
 Requirements
 Kali Linux or any Linux-based distribution.
+
 Bash 4.0+
 Installed Tools:
+
 sublist3r
+
 subfinder
+
 theHarvester
+
 katana
+
 httprobe
+
 nmap
+
 waybackurls
+
 paramspider
+
 Configuration
+
 Edit the script to modify default settings, such as the wordlists or directories used for storing results. Example:
 WORDLIST="/usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-110000.txt"
 OUTPUT_DIR="results"
 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page and submit a pull request.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
