@@ -89,5 +89,3 @@ WORDLIST="/usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-110
 OUTPUT_DIR="results"
 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page and submit a pull request.
-
-
